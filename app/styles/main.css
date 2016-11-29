@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body,
+html {
+	height: 600px;
+	overflow: hidden;
+}
+
+body {
+  padding: 20px;
+  font-family: 'Just Another Hand', cursive;
+  text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 1;
+	color: #fff;
+	background: #555;
+	padding: 10px 25px 5px;
+	outline: 0;
+	border-radius: 4px;
+	transition: all .2s ease-in;
+}
+
+a:hover {
+	background: #999;
+}
